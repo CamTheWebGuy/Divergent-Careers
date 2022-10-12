@@ -25,8 +25,8 @@ Something that could be used in the real world and that I could build from scrat
 
 - [x] Create Header Component & Test for Responsiveness
 - [x] Add React Particles to Landing Page
-- [ ] Create About Component & Test for Responsiveness
-- [ ] Create Job Cards Component
+- [x] Create About Component & Test for Responsiveness
+- [x] Create Job Cards Component
 - [ ] Create Footer Component
 - [ ] Create Profile Page
 - [ ] Create Create a Listing Page

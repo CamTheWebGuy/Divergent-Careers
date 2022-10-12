@@ -8,7 +8,7 @@ import React from 'react';
 
 const Card = () => {
   return (
-    <div className='card bg-white drop-shadow p-10 rounded'>
+    <div className='card bg-white drop-shadow p-10 rounded cursor-pointer hover:bg-slate-50'>
       <div className='text-center w-3/6 bg-blue-300 text-blue-600 px-2 rounded-full text-sm'>
         <h3>Full-Time</h3>
       </div>
