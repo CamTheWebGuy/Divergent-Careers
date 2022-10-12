@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import About from '../components/About';
 import Banner from '../components/Banner';
+import Card from '../components/Card';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 
@@ -21,6 +22,16 @@ const Home: NextPage = () => {
       <Header />
       <Hero />
       <About />
+
+      <div className='listings grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 px-5 md:px-20 pt-10 bg-slate-50'>
+        <Card />
+        <Card />
+        <Card />
+
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </div>
   );
 };

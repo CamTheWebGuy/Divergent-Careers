@@ -8,7 +8,7 @@ const About = () => {
         <h2 className='font-bold text-3xl'>
           Personalized Workplace Accommodations
         </h2>
-        <p className='pt-5 text-md'>
+        <p className='pt-5 text-md leading-loose text-slate-500 font-light'>
           Divergent Careers fosters transparency by putting accommodations up
           front. Create a Candidate Profile and add the accommodations you need
           to be successful on the job such as remote work, access to apps for
