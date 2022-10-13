@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Button from './Button';
 
 const About = () => {
   return (
@@ -15,9 +16,7 @@ const About = () => {
           stress/anxiety, screen reading software, a service animal, accessible
           parking, braille signage, and dozens more.
         </p>
-        <button className='mt-5 bg-blue-600 px-6 py-2 text-white rounded-full'>
-          Get Started
-        </button>
+        <Button text='Get Started' />
       </div>
       <div className='about-img relative w-full mt-10 md:w-1/2 md:mt-0'>
         <Image

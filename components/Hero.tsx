@@ -1,5 +1,6 @@
 import React from 'react';
 import dynamic from 'next/dynamic';
+import Button from './Button';
 
 const ParticlesBg = dynamic(() => import('particles-bg'), {
   ssr: false,
@@ -18,9 +19,7 @@ const Hero = () => {
         attract and retain previously untapped talent.
       </p>
       <div className='text-center pt-10'>
-        <button className='bg-blue-600 px-6 py-2 text-white rounded-full'>
-          Learn More
-        </button>
+        <Button text='Learn More' />
       </div>
     </div>
   );
