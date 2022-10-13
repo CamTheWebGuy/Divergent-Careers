@@ -6,6 +6,7 @@ import Banner from '../components/Banner';
 import Button from '../components/Button';
 import Card from '../components/Card';
 import FeaturedListings from '../components/FeaturedListings';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 
@@ -26,11 +27,7 @@ const Home: NextPage = () => {
       <About />
       <FeaturedListings />
 
-      <footer className='px-20 py-5 bg-black text-white mt-10'>
-        <div className='footer-col text-center'>
-          <h2>Copyright &copy; 2022 | All Rights Reserved</h2>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };
