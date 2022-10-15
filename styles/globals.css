@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.select-padding {
+  padding: 0.6rem;
+}
+
+.search-wrapper {
+  border: none !important;
+}
+
+.searchBox {
+  max-width: fit-content;
+}
