@@ -13,3 +13,7 @@
 .searchBox {
   max-width: fit-content;
 }
+
+.jobCard {
+  background: #fff;
+}

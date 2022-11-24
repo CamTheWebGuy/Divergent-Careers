@@ -1,31 +1,42 @@
 import React from 'react';
-import { CurrencyDollarIcon } from '@heroicons/react/24/solid';
-
+import {
+  MapPinIcon,
+  BriefcaseIcon,
+  BuildingOfficeIcon,
+} from '@heroicons/react/24/solid';
 const JobResult = () => {
   return (
-    <div className='hover:bg-slate-50 cursor-pointer bg-white p-5 drop-shadow rounded mt-3'>
-      <div className='flex'>
-        <div className='companyLogo mr-5 w-1/4'>
-          <img
-            src='https://www.edigitalagency.com.au/wp-content/uploads/TikTok-icon-glyph.png'
-            alt='Company Logo'
-          />
-        </div>
-        <div className='jobInfo w-9/12'>
-          <h4 className='font-bold'>User Experience Designer</h4>
-          <p className='font-light text-slate-500 flex'>
-            <CurrencyDollarIcon className='h-5 w-5 text-blue-600 mr-1' />{' '}
-            $45,000 - $65,000
-          </p>
-        </div>
+    <div className='jobCard p-5 rounded border border-slate-200 mb-3 cursor-pointer'>
+      <div className='jobTitle flex justify-between'>
+        <h2 className='font-bold text-2xl'>Techical Support Specialist</h2>
+        <span className='text-xl font-bold'>$40/hr</span>
       </div>
-      <div className='job-badges flex flex-wrap'>
-        <p className='bg-blue-300 text-blue-800 p-1 mt-3 text-sm rounded mr-2 px-3'>
-          Full-Time
-        </p>
-        <p className='bg-violet-300 text-violet-800 p-1 text-sm rounded px-3 mt-3 mr-2'>
-          Senior Level
-        </p>
+      <div className='jobDetails text-slate-500 font-light'>
+        <span className='font-bold text-blue-600'>Netflix</span>{' '}
+        <div className='w-3 inline-block'>
+          <MapPinIcon />
+        </div>{' '}
+        Remote{' '}
+        <div className='w-3 inline-block'>
+          <BriefcaseIcon />
+        </div>{' '}
+        Full-Time
+      </div>
+      <p className='pt-3 text-slate-500 font-light'>
+        We want someone who has been doing this for a solid 2-3 years. We want
+        someone who can demonstrate an extremely strong portfolio. Create
+        deliverables for your product area (for example competitive analyses,
+        user flows.
+      </p>
+      <div className='jobBadges mt-3'>
+        <ul>
+          <li className='inline-block bg-purple-300 rounded p-1 text-sm '>
+            Full-Time
+          </li>
+          <li className='inline-block bg-green-300 rounded p-1 text-sm ml-2'>
+            Urgent
+          </li>
+        </ul>
       </div>
     </div>
   );
